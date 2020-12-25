@@ -489,3 +489,6 @@ Finally after completion of training, DeepPrime2Seq generate a PDF of the report
 
 
 ![Screen Shot 2019-07-12 at 5 33 30 PM](https://user-images.githubusercontent.com/8551117/61140191-45ed3280-a4cb-11e9-95f5-e12745b5de61.png)
+
+## Reference
+https://github.com/ehsanasgari/DeepPrime2Sec
