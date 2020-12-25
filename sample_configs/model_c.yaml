@@ -1,0 +1,25 @@
+deep_learning_model: model_c_cnn_bilstm_crf
+model_paramters:
+  CRF_input_dim: 200
+  convs:
+  - 3
+  - 5
+  - 7
+  - 11
+  - 21
+  dense_size: 1000
+  dropout_rate: 0.5
+  features_to_use:
+  - onehot
+  - pssm
+  filter_size: 256
+  lr: 0.0005
+  lstm_size: 1000
+run_parameters:
+  domain_name: cnn_bilstm_crf
+  epochs: 100
+  gpu: 1
+  patience: 10
+  setting_name: pssm_onehot
+  test_batch_size: 100
+  train_batch_size: 64
